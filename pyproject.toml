@@ -9,8 +9,7 @@ urls.Homepage = "https://github.com/unitedstates/python-us/"
 urls."Issue tracker" = "https://github.com/unitedstates/python-us/issues"
 requires-python = ">=3.7"
 dynamic = ["version"]
-authors = [{ name = "Jeremy Carbaugh", email = "jeremy@jcarbaugh.com" },
-           { name = "Pedro Camargo", email = "c@margo.co" }]
+authors = [{ name = "Jeremy Carbaugh", email = "jeremy@jcarbaugh.com" }]
 classifiers = [
     "Programming Language :: Python",
     "Programming Language :: Python :: 3.8",
