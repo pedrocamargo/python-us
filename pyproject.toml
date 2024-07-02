@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools"]
+
+# project metadata
+[project]
+name = "us"
+description = "US state meta information and other fun stuff"
+readme = "README.rst"
+urls.Homepage = "https://github.com/unitedstates/python-us/"
+urls."Issue tracker" = "https://github.com/unitedstates/python-us/issues"
+requires-python = ">=3.7"
+
+authors = [{ name = "Jeremy Carbaugh", email = "jeremy@jcarbaugh.com" }]
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+license = {"BSD"}
+
+dependencies = ['jellyfish']
